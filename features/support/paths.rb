@@ -19,11 +19,11 @@ module NavigationHelpers
     when /^the (Evolve )? Admin home\s?page$/
       admin_path
 
+    when /^the admin login page/
+      login_path
+
     when /^the creation page/
       creation_path
-
-    when /^the address (.*)/ 
-      $1
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
